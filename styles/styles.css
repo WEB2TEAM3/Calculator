@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+}
+
+
+
+.metrics {
+    width: 35vw;
+    text-align: center;
+    padding-top: 1.2rem;
+    border-radius: 1rem;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+
+}
+
+.display-screen {
+    height: 25vh;
+
+}
+
+#display {
+    width: 90%;
+    height: 15vh;
+    background-color: black;
+    color: aquamarine;
+    border: none;
+}
+
+.btn-design {
+    height: 3rem;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 21%;
+    background-color: #1B2430;
+    color: aliceblue;
+    font-size: large;
+}
+
+.btn-container {
+    margin: 0;
+    border: none;
+    padding: 0;
+    border-radius: 1rem;
+    background-color: #1B2430;
+
+}
+
+.scientific-operators {
+    color: aqua;
+}
+
+.basic-operators {
+    color: red;
+}
+
+.icon-div {
+    width: 8vw;
+    height: 2rem;
+    background-color: #393E46;
+    border-radius: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.bi,
+.icon {
+    color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.network-div {
+    display: flex;
+    flex-flow: row-reverse;
+
+}

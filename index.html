@@ -1,38 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Calculator</title>
-    <div class="container" id="container">
-      <div class="display-result" id="display-result"></div>
-      <div class="sub-container" id="sub-container">
-        <div class="buttons">
-          <div class="button" style="color: green">AC</div>
-          <div class="button" style="color: green">)</div>
-          <div class="button" style="color: green">%</div>
-          <div class="button" style="color: red">/</div>
-          <div class="button">7</div>
-          <div class="button">8</div>
-          <div class="button">9</div>
-          <div class="button" style="color: red">*</div>
-          <div class="button">4</div>
-          <div class="button">5</div>
-          <div class="button">6</div>
-          <div class="button" style="color: red">-</div>
-          <div class="button">1</div>
-          <div class="button">2</div>
-          <div class="button">3</div>
-          <div class="button" style="color: red">+</div>
-          <div class="button">(</div>
-          <div class="button">0</div>
-          <div class="button">.</div>
-          <div id="equal" class="button">=</div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="metrics">
+    <div class="display-screen">
+      <div class="network-div">
+        <i class="bi bi-battery-full" style="font-size: .8rem;"></i>
+        <i class="bi bi-wifi" style="font-size: .8rem;"></i>
+        <i class="bi bi-reception-4" style="font-size: .8rem;"></i>
+      </div>
+      <div class="icon-div">
+        <i class="bi bi-brightness-high icon" style="font-size: 0.9rem;"></i>
+        <i class="bi bi-moon icon" style="font-size: .9rem;"></i>
+      </div>
+      <input type="text" name="Answer" value="result" id="display" readonly>
+    </div>
+    <div class="btn-container">
+      <div class="top-row">
+        <input type="button" class="btn-design scientific-operators" name="" value="AC">
+        <input type="button" class="btn-design scientific-operators" name="" value=⁺∕->
+        <input type="button" class="btn-design scientific-operators" name="" value=%>
+        <input type="button" class="btn-design basic-operators" name="" value=÷>
+      </div>
+      <div class="second-row">
+        <input type="button" class="btn-design integer" name="" value=7>
+        <input type="button" class="btn-design integer" name="" value=8>
+        <input type="button" class="btn-design integer" name="" value=9>
+        <input type="button" class="btn-design basic-operators" name="" value=x>
+      </div>
+      <div class="third-row">
+        <input type="button" class="btn-design integer" name="" value=4>
+        <input type="button" class="btn-design integer" name="" value=5>
+        <input type="button" class="btn-design integer" name="" value=6>
+        <input type="button" class="btn-design basic-operators" name="" value=->
+      </div>
+      <div class="fourth-row">
+        <input type="button" class="btn-design integer" name="" value=1>
+        <input type="button" class="btn-design integer" name="" value=2>
+        <input type="button" class="btn-design integer" name="" value=3>
+        <input type="button" class="btn-design basic-operators" name="" value=+>
+      </div>
+      <div class="last-row">
+        <input type="button" class="btn-design refresh" name="" value=⟲ style="font-size: 2rem;">
+        <input type="button" class="btn-design integer" name="" value=0>
+        <input type="button" class="btn-design basic-operators" name="" value=.>
+        <input type="button" class="btn-design basic-operators" name="" value==>
       </div>
     </div>
-  </head>
-  <body></body>
+  </div>
+</body>
+
 </html>
